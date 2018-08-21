@@ -1,0 +1,64 @@
+.app {
+  background-color: #0abde3;
+  width: 100vw;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 25vh;
+}
+
+.clover {
+  height: 25vh;
+}
+
+.scooter {
+  position: absolute;
+  bottom: -1vh;
+  left: 0;
+  width: 10vw;
+
+  -webkit-animation: sliding 4s infinite; /* Chrome, Safari, Opera */
+  -webkit-animation-direction: normal; /* Chrome, Safari, Opera */
+  animation: sliding 4s infinite;
+  animation-direction: normal;
+}
+
+.company-name {
+  font-family: "Jua", sans-serif;
+  font-size: 10vh;
+  color: white;
+  padding-top: 2vh;
+}
+
+.cooming-soon {
+  font-family: "Jua", sans-serif;
+  font-size: 5vh;
+  color: white;
+  padding-top: 25vh;
+}
+
+@-webkit-keyframes sliding {
+  0% {
+    left: -11vw;
+  }
+  25% {
+    left: 5vw;
+  }
+  100% {
+    left: 111vw;
+  }
+}
+
+@keyframes sliding {
+  0% {
+    left: -11vw;
+  }
+  25% {
+    left: 10vw;
+  }
+  100% {
+    left: 111vw;
+  }
+}
