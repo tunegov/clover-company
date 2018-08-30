@@ -1,3 +1,11 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0abde3;
+  position: fixed;
+}
+
 .app {
   background-color: #0abde3;
   width: 100vw;
@@ -6,7 +14,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  padding-top: 25vh;
+  padding-top: 20vh;
 }
 
 .clover {
@@ -29,7 +37,9 @@
   font-family: "Jua", sans-serif;
   font-size: 10vh;
   color: white;
-  padding-top: 2vh;
+  padding-top: 7vh;
+  width: 100vw;
+  text-align: center;
 }
 
 .cooming-soon {
@@ -37,6 +47,8 @@
   font-size: 5vh;
   color: white;
   padding-top: 25vh;
+  width: 100vw;
+  text-align: center;
 }
 
 @-webkit-keyframes sliding {
