@@ -8,8 +8,8 @@ class App extends PureComponent {
     return (
       <div className="app">
         <img src={clover} alt="clover" className="clover" />
-        <span className="company-name">The Clover Company</span>
-        <span className="cooming-soon">The future is coming...</span>
+        <span className="company-name">Clover Company</span>
+        <span className="cooming-soon">Future is coming...</span>
         <img src={scooter} alt="scooter" className="scooter" />
       </div>
     );
