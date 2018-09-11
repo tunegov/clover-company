@@ -27,7 +27,7 @@ class App extends PureComponent {
           isPaused={this.state.isPaused}
         />
         {/* <span className="company-name">CLOVER COMPANY</span> */}
-        <span className="cooming-soon">Be part of the future</span>
+        <span className="cooming-soon">BE PART OF THE FUTURE</span>
         <img src={scooter} alt="scooter" className="scooter" />
       </div>
     );
